@@ -2,7 +2,7 @@ pragma solidity ^0.4.25;
 
 contract SimpleGrade{
 
-  string student;
+  string student; 
   
   function setGrade(unit256 score) public{
     
