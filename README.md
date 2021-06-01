@@ -12,7 +12,12 @@
 2. 계약 선언
 3. 변수 선언
 4. 결과 출력 함수 선언
-5. 실행 함수 선언
+``` solidity
+function 함수명() public view returns (변수형태){
+        return 변수명;
+    }
+```
+6. 실행 함수 선언
 
 ### Excercise
 1. exercise01: 점수를 입력하면 학점을 출력하는 조건문 함수
