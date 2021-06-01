@@ -9,7 +9,7 @@
 
 
 ### Contract
-1. 버전 선언
+1. 버전 선언 (단, 선언한 버전과 deploy된 버전이 같은지 확인 필요)
 ``` solidity
 pragma solidity ^0.7.6;
 ```
