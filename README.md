@@ -38,4 +38,4 @@ function 함수명() public {
 ### Excercise
 1. exercise01: 점수를 입력하면 학점을 출력하는 조건문 함수
 2. exercise02: 학생의 학번, 이름, 학과를 입력해놓은 함수
-3. exercise03: 숫자 자동으로 증감하는 계약 함수
+3. exercise03: 숫자가 자동으로 증감하는 계약 함수
