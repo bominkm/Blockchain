@@ -21,9 +21,9 @@ contract Count {}
 ``` solidity
 변수형태 public 변수명;
 ```
-4. 결과 출력 함수 선언
+4. 결과 출력 함수 선언 (version 5 이상 constant 제어자 사용불가, view 사용 권고)
 ``` solidity
-function 함수명() public view returns (변수형태){
+function 함수명() public view returns(변수형태){
         return 변수명;
     }
 ```
@@ -40,3 +40,7 @@ function 함수명() public {
 2. exercise02: 학생의 학번, 이름, 학과를 입력해놓은 함수
 3. exercise03: 숫자가 자동으로 증감하는 계약 함수
 4. exercise04: 예금 및 인출 후 잔고 변화 확인 함수
+ 4-1. 예금 함수 (`payable`: 돈을 주고 받을 때, 선언하는 함수)
+ 4-2. 인출 함수 (예금할 금액 >= 인출할 금액)
+ 4-3. 계좌 주인과 계약 주인이 같은지 확인하는 함수 (`address`: 계좌 주소)
+ 4-4. 결과 출력 함수
