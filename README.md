@@ -46,5 +46,5 @@ function 함수명() public {
  4-4. 잔고 출력 함수  
 5. exercise05: 토큰 생성 함수  
  5-1. `mapping`: key(토큰의 주소)와 value(잔고)를 연결하기 위한 함수  
- 5-2. `event`, emit: 로그 기록을 저장하는 함수  
+ 5-2. `event`, `emit`: 로그 기록을 저장하는 함수  
  5-3. `supply`: 계약을 최초로 생성할 때, 공급량을 설정하는 함수  
